@@ -39,8 +39,12 @@ main {
     width: 45%;
 }
 
-.lewy h3, .prawy ul {
+.lewy h3{
     text-align: center;
+}
+
+.prawy ul{
+    text-align: right;
 }
 
 input[type="number"] {
