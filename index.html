@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="b1">
-            <img src="logo.jpg" alt="Matematyka">
+            <img src="images.jfif" alt="Matematyka">
         </div>
         <div class="b2">
             <h1>Pomocnik matematyczny</h1>
@@ -63,6 +63,24 @@
             var liczbaB = parseInt(document.getElementById('liczbaB').value);
             var wynik = liczbaA - liczbaB;
             document.getElementById('wynik').innerText = `Wynik odejmowania to ${wynik}`;
+        }
+        function mnożenie() {
+            var liczbaA = parseInt(document.getElementById('liczbaA').value);
+            var liczbaB = parseInt(document.getElementById('liczbaB').value);
+            var wynik = liczbaA * liczbaB;
+            document.getElementById('wynik').innerText = `Wynik mnożenia to ${wynik}`;
+        }
+        function dzielenie() {
+            var liczbaA = parseInt(document.getElementById('liczbaA').value);
+            var liczbaB = parseInt(document.getElementById('liczbaB').value);
+            var wynik = liczbaA / liczbaB;
+            document.getElementById('wynik').innerText = `Wynik dzielenia to ${wynik}`;
+        }
+        function potegowanie() {
+        var liczbaA = parseInt(document.getElementById('liczbaA').value);
+        var liczbaB = parseInt(document.getElementById('liczbaB').value);
+        var wynik = Math.pow(liczbaA, liczbaB);
+        document.getElementById('wynik').innerText = `Wynik potęgowania to ${wynik}`;
         }
     </script>
 </body>
