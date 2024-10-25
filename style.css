@@ -43,7 +43,7 @@ main {
     text-align: center;
 }
 
-.prawy ul{
+.prawy ul, li{
     text-align: right;
 }
 
