@@ -7,27 +7,38 @@ body {
 }
 
 header {
-    text-align: center;
-    color: #ff7e75;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
+    background-color: #f3f4f6;
     border-bottom: 2px solid #000;
 }
 
-header .b1 img {
-    max-width: 100px;
-    
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    max-width: 50px;
+    margin-right: 15px;
 }
 
 header h1 {
-    margin: 10px 0;
+    margin: 0;
+    font-size: 1.5em;
+    color: #ff7e75;
 }
 
-header a {
+nav a {
+    margin-left: 20px;
     text-decoration: none;
     color: #000;
+    font-size: 1.1em;
 }
 
-header a:hover {
+nav a:hover {
     text-decoration: underline;
 }
 
@@ -41,11 +52,11 @@ main {
     width: 45%;
 }
 
-.lewy h3{
+.lewy h3 {
     text-align: center;
 }
 
-.prawy ul{
+.prawy ul {
     text-align: right;
 }
 
