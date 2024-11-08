@@ -15,6 +15,10 @@ header {
     border-bottom: 2px solid #000;
 }
 
+header div {
+    font-size: 50px;
+}
+    
 .logo-container {
     display: flex;
     align-items: center;
