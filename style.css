@@ -8,6 +8,7 @@ body {
 
 header {
     text-align: center;
+    flex-direction: row; 
     color: #ff7e75;
     padding: 20px;
     border-bottom: 2px solid #000;
@@ -15,6 +16,7 @@ header {
 
 header .b1 img {
     max-width: 100px;
+    
 }
 
 header h1 {
